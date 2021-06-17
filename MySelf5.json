@@ -1,0 +1,1788 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "Age",
+      "features": []
+    },
+    {
+      "name": "children",
+      "features": []
+    },
+    {
+      "name": "Children_Age",
+      "features": []
+    },
+    {
+      "name": "Children_Name",
+      "features": []
+    },
+    {
+      "name": "Family",
+      "features": []
+    },
+    {
+      "name": "Favorite_Actor",
+      "features": []
+    },
+    {
+      "name": "Favorite_Band",
+      "features": []
+    },
+    {
+      "name": "Favorite_Restaurant",
+      "features": []
+    },
+    {
+      "name": "Food",
+      "features": []
+    },
+    {
+      "name": "Footballteam",
+      "features": []
+    },
+    {
+      "name": "Hobby",
+      "features": []
+    },
+    {
+      "name": "Job",
+      "features": []
+    },
+    {
+      "name": "MusicTaste",
+      "features": []
+    },
+    {
+      "name": "Nation",
+      "features": []
+    },
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "Pet",
+      "features": []
+    },
+    {
+      "name": "Relationship",
+      "features": []
+    },
+    {
+      "name": "Relationship_Name",
+      "features": []
+    },
+    {
+      "name": "Restaurant_Location",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "Actors",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Families",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Foods",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Football",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "halldor",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Hobbies",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Jobs",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "kid",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Music",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Pets",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "Relationships",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "do squirrels like this guy?",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "Pets",
+          "startPos": 3,
+          "endPos": 11,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "do you like fish?",
+      "intent": "Food",
+      "entities": [
+        {
+          "entity": "Foods",
+          "startPos": 12,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a beloved entertainer",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 28,
+          "endPos": 38,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a brother",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 20,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a cat",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 20,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a dog",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 20,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a favorite actor",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 29,
+          "endPos": 33,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a favorite actress",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 29,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a feline?",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "Pets",
+          "startPos": 20,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a girlfriend",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 20,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a hobby",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Hobbies",
+          "startPos": 20,
+          "endPos": 24,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a partner",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 20,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a pet",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 20,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a sister",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 20,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have a son?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 20,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have any children?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 22,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have any depent?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 22,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have any hobbies",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Hobbies",
+          "startPos": 22,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have any interest",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Hobbies",
+          "startPos": 22,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have any kids?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 22,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor have siblings",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 18,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor like country?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 18,
+          "endPos": 24,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor like k9",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "Pets",
+          "startPos": 18,
+          "endPos": 19,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor like ping pong",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "Hobbies",
+          "startPos": 18,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor like tennis",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "Hobbies",
+          "startPos": 18,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor listen to blues?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 23,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor play chess",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "Hobbies",
+          "startPos": 18,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor play football",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "Hobbies",
+          "startPos": 18,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor play sports",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "Hobbies",
+          "startPos": 18,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does halldor support manchester united",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 21,
+          "endPos": 37,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does he enjoy rock and roll?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 14,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does he have a boyfriend",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 15,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does he keep pets",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 6,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 13,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does he like birds",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 6,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 13,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does he like lynx?",
+      "intent": "Pet",
+      "entities": []
+    },
+    {
+      "text": "does he love mice?",
+      "intent": "Pet",
+      "entities": []
+    },
+    {
+      "text": "does he work",
+      "intent": "Job",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 5,
+          "endPos": 6,
+          "children": []
+        },
+        {
+          "entity": "Jobs",
+          "startPos": 8,
+          "endPos": 11,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "does this guy keep hamsters?",
+      "intent": "Pet",
+      "entities": []
+    },
+    {
+      "text": "halldor is not from around here",
+      "intent": "Nation",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 0,
+          "endPos": 6,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "halldor's mother, what is her name",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 10,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "has halldor a foster kid?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 21,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "has he got any animals",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 4,
+          "endPos": 5,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 15,
+          "endPos": 21,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "has he got any kids?",
+      "intent": "children",
+      "entities": []
+    },
+    {
+      "text": "how many children does he have?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 9,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "how many siblings does halldor have",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 9,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "how old are halldor's kids",
+      "intent": "Children_Age",
+      "entities": []
+    },
+    {
+      "text": "how old is halldor",
+      "intent": "Age",
+      "entities": []
+    },
+    {
+      "text": "how old is halldor's son",
+      "intent": "Children_Age",
+      "entities": []
+    },
+    {
+      "text": "how old is he?",
+      "intent": "Age",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 11,
+          "endPos": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is crystal palace halldor's favorite team",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 3,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor a cat person",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 3,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 13,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor a dog person",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 3,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 13,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor a liverpool supporter",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 13,
+          "endPos": 21,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor a rocker?",
+      "intent": "MusicTaste",
+      "entities": []
+    },
+    {
+      "text": "is halldor a vegan?",
+      "intent": "Food",
+      "entities": []
+    },
+    {
+      "text": "is halldor dating",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 11,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor in a relationship",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 16,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor married",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 11,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor single",
+      "intent": "Relationship",
+      "entities": [
+        {
+          "entity": "Relationships",
+          "startPos": 11,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is halldor supporter of a football team",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 26,
+          "endPos": 38,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is he a parent?",
+      "intent": "children",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 3,
+          "endPos": 4,
+          "children": []
+        },
+        {
+          "entity": "kid",
+          "startPos": 8,
+          "endPos": 13,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "is he a vegetarian?",
+      "intent": "Food",
+      "entities": []
+    },
+    {
+      "text": "is he seeing anyone",
+      "intent": "Relationship",
+      "entities": []
+    },
+    {
+      "text": "is it true that halldor is a fruitarian?",
+      "intent": "Food",
+      "entities": []
+    },
+    {
+      "text": "is pizza your favourite?",
+      "intent": "Food",
+      "entities": [
+        {
+          "entity": "Foods",
+          "startPos": 3,
+          "endPos": 7,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "top favorite songs?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 13,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what age is halldor",
+      "intent": "Age",
+      "entities": []
+    },
+    {
+      "text": "what are halldor's children ages",
+      "intent": "Children_Age",
+      "entities": []
+    },
+    {
+      "text": "what are halldor's sisters names",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 19,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what are his kids name",
+      "intent": "Children_Name",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 13,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what are the names of halldor's kids",
+      "intent": "Children_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 22,
+          "endPos": 28,
+          "children": []
+        },
+        {
+          "entity": "kid",
+          "startPos": 32,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what band does he mostly listen to?",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 5,
+          "endPos": 8,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what country is he from",
+      "intent": "Nation",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 16,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does halldor do for a living",
+      "intent": "Job",
+      "entities": [
+        {
+          "entity": "Jobs",
+          "startPos": 25,
+          "endPos": 32,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does halldor do for leisure",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 10,
+          "endPos": 16,
+          "children": []
+        },
+        {
+          "entity": "Hobbies",
+          "startPos": 25,
+          "endPos": 31,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does halldor do for recreation",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 10,
+          "endPos": 16,
+          "children": []
+        },
+        {
+          "entity": "Hobbies",
+          "startPos": 25,
+          "endPos": 34,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does halldor do in his pasttime",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 10,
+          "endPos": 16,
+          "children": []
+        },
+        {
+          "entity": "Hobbies",
+          "startPos": 28,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does halldor think is the best soccer team",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 36,
+          "endPos": 46,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does he do for work",
+      "intent": "Job",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 10,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "Jobs",
+          "startPos": 20,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what does he listen to?",
+      "intent": "MusicTaste",
+      "entities": []
+    },
+    {
+      "text": "what hobbies does halldor have",
+      "intent": "Hobby",
+      "entities": [
+        {
+          "entity": "Hobbies",
+          "startPos": 5,
+          "endPos": 11,
+          "children": []
+        },
+        {
+          "entity": "halldor",
+          "startPos": 18,
+          "endPos": 24,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's brother called",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 18,
+          "endPos": 24,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's children called",
+      "intent": "Children_Name",
+      "entities": [
+        {
+          "entity": "kid",
+          "startPos": 18,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's dad called",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 18,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's daughter's name",
+      "intent": "Children_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 8,
+          "endPos": 14,
+          "children": []
+        },
+        {
+          "entity": "kid",
+          "startPos": 18,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's favorite actor",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 27,
+          "endPos": 31,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's favorite band",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 27,
+          "endPos": 30,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's favorite football team",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 27,
+          "endPos": 39,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's favorite restaurant",
+      "intent": "Favorite_Restaurant",
+      "entities": []
+    },
+    {
+      "text": "what is halldor's girlfriend name's",
+      "intent": "Relationship_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 8,
+          "endPos": 14,
+          "children": []
+        },
+        {
+          "entity": "Relationships",
+          "startPos": 18,
+          "endPos": 27,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's job",
+      "intent": "Job",
+      "entities": [
+        {
+          "entity": "Jobs",
+          "startPos": 18,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's most cherished band",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 33,
+          "endPos": 36,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's partner name",
+      "intent": "Relationship_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 8,
+          "endPos": 14,
+          "children": []
+        },
+        {
+          "entity": "Relationships",
+          "startPos": 18,
+          "endPos": 24,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's siblings names",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 18,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's son name",
+      "intent": "Children_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 8,
+          "endPos": 14,
+          "children": []
+        },
+        {
+          "entity": "kid",
+          "startPos": 18,
+          "endPos": 20,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is halldor's wife called",
+      "intent": "Relationship_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 8,
+          "endPos": 14,
+          "children": []
+        },
+        {
+          "entity": "Relationships",
+          "startPos": 18,
+          "endPos": 21,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what is his favorite place to eat",
+      "intent": "Favorite_Restaurant",
+      "entities": []
+    },
+    {
+      "text": "what is the location of halldor's favorite restaurant",
+      "intent": "Restaurant_Location",
+      "entities": []
+    },
+    {
+      "text": "what kind of food do you like?",
+      "intent": "Food",
+      "entities": [
+        {
+          "entity": "Foods",
+          "startPos": 13,
+          "endPos": 16,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what kind of music does halldor like?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 13,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what nationality are you",
+      "intent": "Nation",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 21,
+          "endPos": 23,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what type of genres does halldor listen to?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 13,
+          "endPos": 18,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what type of songs does halldor like?",
+      "intent": "MusicTaste",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 13,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what year was halldor born",
+      "intent": "Age",
+      "entities": []
+    },
+    {
+      "text": "what's halldor's birthday",
+      "intent": "Age",
+      "entities": []
+    },
+    {
+      "text": "what's halldor's daughter's age",
+      "intent": "Children_Age",
+      "entities": []
+    },
+    {
+      "text": "what's halldor's father name",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 17,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's halldor's favorite cousine?",
+      "intent": "Food",
+      "entities": [
+        {
+          "entity": "Foods",
+          "startPos": 26,
+          "endPos": 32,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's halldor's parent's names",
+      "intent": "Family",
+      "entities": []
+    },
+    {
+      "text": "what's halldor's profession",
+      "intent": "Job",
+      "entities": [
+        {
+          "entity": "Jobs",
+          "startPos": 17,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's his girl's name",
+      "intent": "Relationship_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 7,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "Relationships",
+          "startPos": 11,
+          "endPos": 14,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's his husband name",
+      "intent": "Relationship_Name",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 7,
+          "endPos": 9,
+          "children": []
+        },
+        {
+          "entity": "Relationships",
+          "startPos": 11,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's the best band in the world",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 16,
+          "endPos": 19,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's the name of halldor's favorite restaurant",
+      "intent": "Favorite_Restaurant",
+      "entities": []
+    },
+    {
+      "text": "what's the name of your dad",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 24,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's your mom called",
+      "intent": "Family",
+      "entities": [
+        {
+          "entity": "Families",
+          "startPos": 12,
+          "endPos": 14,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "what's your mom's name",
+      "intent": "Family",
+      "entities": []
+    },
+    {
+      "text": "when was halldor born?",
+      "intent": "Age",
+      "entities": []
+    },
+    {
+      "text": "when were you born?",
+      "intent": "Age",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 10,
+          "endPos": 12,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "where does halldor love to have dinner",
+      "intent": "Restaurant_Location",
+      "entities": []
+    },
+    {
+      "text": "where does halldor work",
+      "intent": "Job",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 11,
+          "endPos": 17,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "where is halldor from",
+      "intent": "Nation",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 9,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "where is halldor's favorite restaurant",
+      "intent": "Restaurant_Location",
+      "entities": []
+    },
+    {
+      "text": "where is the place where halldor likes to eat",
+      "intent": "Restaurant_Location",
+      "entities": []
+    },
+    {
+      "text": "where were you born?",
+      "intent": "Nation",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 11,
+          "endPos": 13,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "which football team does halldor support",
+      "intent": "Footballteam",
+      "entities": [
+        {
+          "entity": "Football",
+          "startPos": 6,
+          "endPos": 18,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who do you think is the best actor ever",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 29,
+          "endPos": 33,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who does halldor think is a music virtuoso",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 28,
+          "endPos": 32,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who does halldor think is the best composer",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 35,
+          "endPos": 42,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who does halldor think is the best performer",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 35,
+          "endPos": 43,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who does halldor think is the best play-actor",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 35,
+          "endPos": 44,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who does halldor think is the number one actor",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 41,
+          "endPos": 45,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who is halldor's favorite artist",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 26,
+          "endPos": 31,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who is halldor's favorite pretender",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 26,
+          "endPos": 34,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who is halldor's most cherished actor",
+      "intent": "Favorite_Actor",
+      "entities": [
+        {
+          "entity": "Actors",
+          "startPos": 32,
+          "endPos": 36,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "who is halldor's number one musician",
+      "intent": "Favorite_Band",
+      "entities": [
+        {
+          "entity": "Music",
+          "startPos": 28,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "would halldor like to own a fox",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "halldor",
+          "startPos": 6,
+          "endPos": 12,
+          "children": []
+        },
+        {
+          "entity": "Pets",
+          "startPos": 28,
+          "endPos": 30,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "would halldor want to keep a tiger?",
+      "intent": "Pet",
+      "entities": [
+        {
+          "entity": "Pets",
+          "startPos": 29,
+          "endPos": 33,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "versionId": "0.1",
+  "name": "Halldor Bot 2",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}
