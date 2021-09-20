@@ -1,0 +1,13 @@
+Question,Intent 
+do you like fish from cross validation?,Food
+What do you like to eat,Food
+whats your favorite snack,Food
+is the icelandic hotdog the best there is,Food
+what is your favorite food,Food
+does halldor have a beloved entertainer,Favorite_Actor
+does halldor have a favorite actor,Favorite_Actor
+does halldor have a favorite actress,Favorite_Actor
+does halldor have a brother,Family
+does halldor have a sister,Family
+does halldor have a son?,Family
+does halldor have siblings,Family
